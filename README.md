@@ -423,13 +423,13 @@ MIT — see [LICENSE](LICENSE)
 
 ## Contributing
 
-See [CONTRIBUTING.md](../CONTRIBUTING.md) for contribution guidelines.
+See [CONTRIBUTING.md](https://github.com/tuulbelt/tuulbelt/blob/main/CONTRIBUTING.md) for contribution guidelines.
 
 ## Related Tools
 
 Part of the [Tuulbelt](https://github.com/tuulbelt/tuulbelt) collection:
-- [Test Flakiness Detector](../test-flakiness-detector/) — Detect unreliable tests
-- [CLI Progress Reporting](../cli-progress-reporting/) — Concurrent-safe progress updates
-- [Cross-Platform Path Normalizer](../cross-platform-path-normalizer/) — Path consistency
-- [File-Based Semaphore](../file-based-semaphore/) — Cross-platform process locking
-- [Output Diffing Utility](../output-diffing-utility/) — Semantic diff for JSON, text, binary
+- [Test Flakiness Detector](https://github.com/tuulbelt/test-flakiness-detector) — Detect unreliable tests
+- [CLI Progress Reporting](https://github.com/tuulbelt/cli-progress-reporting) — Concurrent-safe progress updates
+- [Cross-Platform Path Normalizer](https://github.com/tuulbelt/cross-platform-path-normalizer) — Path consistency
+- [File-Based Semaphore](https://github.com/tuulbelt/file-based-semaphore) — Cross-platform process locking
+- [Output Diffing Utility](https://github.com/tuulbelt/output-diffing-utility) — Semantic diff for JSON, text, binary
