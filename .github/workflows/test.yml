@@ -3,12 +3,8 @@ name: Test
 on:
   push:
     branches: [main]
-    # Only run when this tool's files change (in monorepo context)
-    # Uncomment and adjust when used in monorepo:
-    # paths: ['<tool-name>/**']
   pull_request:
     branches: [main]
-    # paths: ['<tool-name>/**']
 
 # Cancel in-progress runs when new commits are pushed
 concurrency:
@@ -21,8 +17,8 @@ jobs:
 
     strategy:
       matrix:
-        # Test on LTS version only for speed; add 18, 22 for comprehensive testing
-        node-version: [20]
+        # Test on multiple Node.js LTS versions
+        node-version: [18, 20, 22]
 
     steps:
       - name: Checkout repository
@@ -36,6 +32,14 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+
+      - name: Verify zero runtime dependencies
+        run: |
+          if grep -q '"dependencies".*{.*[^}]' package.json; then
+            echo "ERROR: Runtime dependencies found!"
+            exit 1
+          fi
+          echo "✓ Zero runtime dependencies verified"
 
       - name: Check TypeScript (fail fast)
         run: npx tsc --noEmit

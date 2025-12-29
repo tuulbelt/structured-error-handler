@@ -22,8 +22,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tuulbelt/tuulbelt.git",
-    "directory": "structured-error-handler"
+    "url": "https://github.com/tuulbelt/structured-error-handler.git"
+  },
+  "homepage": "https://tuulbelt.github.io/tuulbelt/tools/structured-error-handler/",
+  "bugs": {
+    "url": "https://github.com/tuulbelt/tuulbelt/issues"
   },
   "engines": {
     "node": ">=18.0.0"
