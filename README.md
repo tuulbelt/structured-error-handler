@@ -41,8 +41,8 @@ This tool provides a structured error format that:
 Clone the repository:
 
 ```bash
-git clone https://github.com/tuulbelt/tuulbelt.git
-cd tuulbelt/structured-error-handler
+git clone https://github.com/tuulbelt/structured-error-handler.git
+cd structured-error-handler
 npm install  # Install dev dependencies only
 ```
 
@@ -415,7 +415,7 @@ Potential improvements for future versions:
 
 **[▶ View interactive recording on asciinema.org](https://asciinema.org/a/0itnmL1VW1DHHO8CKI9NbKiEq)**
 
-> Try it online: [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/tuulbelt/tuulbelt/tree/main/structured-error-handler)
+> Try it online: [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/tuulbelt/structured-error-handler)
 
 ## License
 
